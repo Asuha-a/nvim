@@ -153,3 +153,6 @@ set fileformats=unix
 
 " undofile
 set undofile
+
+" クリップボードの有効化
+set clipboard+=unnamedplus
