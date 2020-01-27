@@ -3,23 +3,17 @@
 repo = 'Shougo/neomru.vim'
 
 [[plugins]]
-repo = 'Shougo/unite.vim'
-depends = 'neomru.vim'
-on_cmd = 'Unite'
-hook_add = '''
-source ~/.config/nvim/plugins/unite.rc.vim
-'''
-hook_post_source = '''
-source ~/.config/nvim/plugins/unite_post.rc.vim
+#repo = 'Shougo/unite.vim'
+#depends = 'neomru.vim'
+#on_cmd = 'Unite'
+#hook_post_source = '''
+#source ~/.config/nvim/plugins/unite_post.rc.vim
 '''
 
 [[plugins]]
 repo = 'Shougo/vimfiler.vim'
 depends = 'unite.vim'
 on_cmd = ['VimFiler', 'VimFilerBufferDir']
-hook_add = '''
-source ~/.config/nvim/plugins/vimfiler.rc.vim
-'''
 
 [[plugins]]
 repo = 'Shougo/unite-outline'
@@ -47,9 +41,6 @@ repo = 'Shougo/deoplete.nvim'
 depends = 'context_filetype.vim'
 if = "has('nvim')"
 on_i = 1
-hook_source = '''
-source ~/.config/nvim/plugins/deoplete.rc.vim
-'''
 [[plugins]]
 repo = 'Shougo/neco-vim'
 
@@ -60,9 +51,6 @@ on_if = 1
 [[plugins]]
 repo = 'Shougo/echodoc'
 on_if = 1
-hook_source = '''
-source ~/.config/nvim/plugins/echodoc.rc.vim
-'''
 
 #[[plugins]]
 #repo = 'cohama/lexima.vim'
@@ -89,16 +77,12 @@ repo = 'Shougo/neosnippet.vim'
 on_i  = 1
 on_ft = ['snippet']
 depends = ['neosnippet-snippets']
-hook_source = '''
-source ~/.config/nvim/plugins/neosnippet.rc.vim
 '''
 
 [[plugins]]
 repo = 'lvht/phpcd.vim'
 on_ft = 'php'
 build = 'composer install'
-hook_source = '''
-source ~/.config/nvim/plugins/phpcd.rc.vim
 '''
 
 ## }}}
@@ -107,8 +91,6 @@ source ~/.config/nvim/plugins/phpcd.rc.vim
 [[plugins]]
 repo = 'sjl/gundo.vim'
 on_cmd = 'GundoToggle'
-hook_add = '''
-source ~/.config/nvim/plugins/gundo.rc.vim
 '''
 ### }}}
 
@@ -168,9 +150,6 @@ on_ft = 'javascript'
 [[plugins]]
 repo = '2072/PHP-Indenting-for-VIm'
 on_ft = 'php'
-hook_add = '''
-source ~/.config/nvim/plugins/PHP-Indenting-for-VIm.rc.vim
-'''
 [[plugins]]
 repo = 'stephpy/vim-yaml'
 on_ft = 'yml,yaml'
