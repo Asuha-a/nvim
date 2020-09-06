@@ -3,3 +3,6 @@ repo = 'Shougo/dein.vim'
 
 [[plugins]]
 repo = 'preservim/nerdtree'
+
+[[plugins]]
+repo = 'jiangmiao/auto-pairs'
