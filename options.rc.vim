@@ -85,9 +85,6 @@ set matchtime=3
 " 行番号を表示
 set number
 
-" 行番号を相対値で表示
-set relativenumber
-
 " コマンド実行中は再描画しない
 set lazyredraw
 
