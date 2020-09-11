@@ -30,9 +30,6 @@ set browsedir=buffer
 " コマンドをステータスに表示
 set showcmd
 
-" 現在のモードを非表示
-set noshowmode
-
 " viminfoの設定
 set viminfo='50,<1000,s100,\"50
 
@@ -153,3 +150,5 @@ set undofile
 
 " クリップボードの有効化
 set clipboard+=unnamedplus
+
+
